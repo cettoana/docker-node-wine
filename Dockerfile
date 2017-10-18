@@ -15,6 +15,4 @@ RUN wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/wine
 
 RUN apt-get install -y --no-install-recommends xvfb xauth
 
-RUN winetricks prefix=/root/.wine
-
-RUN xvfb-run -a winetricks -q dotnet20
+RUN winecfg && xvfb-run -a winetricks -q dotnet20
