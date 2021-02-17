@@ -4,11 +4,11 @@ Docker image with dependencies installed for building project with [node-winreso
 
 # Environment
 
-* Debian 8.9 (jessie)
-* node: 6.11
-* Wine: 2.0.2
-* npm: 3.10.10
-* yarn: 1.1.0
+* Debian 10 (buster)
+* node: 14.15 (lts)
+* Wine: 6.0
+* npm: 6.14.11
+* yarn: 1.22.5
 * .NET framework: 2.0
 
 ## Usage
